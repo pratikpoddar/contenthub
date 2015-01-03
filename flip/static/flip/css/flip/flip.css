@@ -1,0 +1,109 @@
+body {
+  padding-top: 50px!important;
+}
+
+footer {
+  margin: 50px 0;
+}
+
+.ratings {
+  margin:0px;
+}
+
+.domain {
+  margin:0px;
+}
+
+.articledate {
+  margin:0px;
+}
+
+.sharers {
+  margin:0px;
+}
+
+.img-quickview {
+	width:50%;
+	float: left;
+	padding : 15px;
+}
+
+.share {
+    display: inline-block;
+    margin-right: 20px;
+}
+.share__count {
+    background-color: #fff;
+    border: solid 1px #a5b1bd;
+    border-radius: 3px;
+    /* add in vendor rules */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    /* add in vendor rules */
+    color: #424a4d;
+    float: left;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 4px 10px;
+    position: relative;
+    text-align: center;
+}
+
+.share_size_large > .share__count {
+    display: block;
+    float: none;
+    font-size: 12px;
+    margin-right: 0;
+    margin-bottom: 12px;
+    padding: 10px 0;
+}
+
+
+
+.share__count:before, .share__count:after {
+  content: '';
+  display: block;
+    height: 0;
+    top: 50%;
+  position: absolute;
+    right: -14px;
+  width: 0;
+    margin-top: -6px;
+}
+
+
+.share__count:before {
+    border: solid 7px transparent;
+    border-color: transparent transparent transparent #a5b1bd;
+}
+
+.share_size_large > .share__count:before {
+  border-color: #a5b1bd transparent transparent transparent;
+    bottom: -14px;
+  margin-left: -7px;
+}
+
+.share__count:after {
+    border: solid 6px transparent;
+    border-color: transparent transparent transparent #fff;
+    right: -12px;
+    margin-top: -5px;
+}
+
+
+
+.img-social {
+	width: 20%;
+
+}
+
+/* Credit to bootsnipp.com for the css for the color graph */
+.colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
