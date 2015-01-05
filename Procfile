@@ -1,1 +1,1 @@
-web: newrelic-admin run-program gunicorn flip_project.wsgi; python manage.py collectstatic --noinput
+web: newrelic-admin run-program gunicorn chub_project.wsgi; python manage.py collectstatic --noinput

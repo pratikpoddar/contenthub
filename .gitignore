@@ -4,7 +4,7 @@
 *.jar
 db.sqlite*
 local_settings.py
-flip_log/
+chub_log/
 node_modules/
 vendor
 .DS_Store
