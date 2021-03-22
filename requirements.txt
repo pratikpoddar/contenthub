@@ -32,7 +32,7 @@ html2text==2014.7.3
 jieba==0.32
 jsmin==2.0.11
 jsonpickle==0.7.1
-lxml==3.3.5
+lxml==4.6.3
 mechanize==0.2.5
 nltk==2.0.4
 parsedatetime==1.4
