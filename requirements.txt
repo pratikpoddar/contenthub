@@ -1,6 +1,6 @@
 BeautifulSoup==3.2.1
 Django==1.6.5
-Pillow==2.5.1
+Pillow==9.3.0
 PyYAML==3.11
 South==0.8.4
 Unidecode==0.04.16
